@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zdishes - Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Icons -->
+</head>
+<body>
+    <header>
+      <link rel="stylesheet" href="style.css" >
+      <script>
+        function beepAlarm() {
+            alert('Beep! Customer details entered.');
+        }
+    </script>
+<script    src="/script.js"></script>
+
+
+        
+        <h1>Welcome to Zdishes</h1>
+        <p>Delicious food delivered right to your door!</p>
+        <script>
+            // Beep sound when the form is submitted
+            document.querySelector('form').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form from actually submitting for now
+                new Audio('alarms/beep_short.ogg').play();
+alert('Order placed!');
+const beepSound = new Audio('mixkit-alarm-digital-clock-beep-989.wavp_short.ogg');
+
+            });
+        </script>
+        </head>
+        <body>
+            <!-- Background Video -->
+            <video autoplay muted loop id="background-video">
+                <source src="6017724-hd_1080_1440_30fps.mp4" type="video/mp4">
+                
+            </video>
+    </header>
+</div>
+
+<!-- Additional Sections -->
+<div class="section">
+    <h2>About Us</h2>
+    <p>Welcome to Zdishes! We provide delicious food delivered right to your door.</p>
+</div>
+
+<div class="section">
+    <h2>Our Menu</h2>
+    <p>Explore our variety of dishes, including appetizers, main courses, and desserts!</p>
+</div>
+
+<div class="section">
+    <h2>Customer Reviews</h2>
+    <p>See what our customers are saying about us!</p>
+    <p>"Great food and fast delivery!" - Sarah</p>
+    <p>"I love the variety of dishes available!" - John</p>
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+</div>
+</body>
+<div style="height: 500px;"></div> <!-- This creates extra space -->
+
+</html>
+    <!-- Banner Section with Limited-Time Offers -->
+    <section class="banner">
+        <h2>Get 20% Off on First Orders!</h2>
+        <p>Use code: FIRST20</p>
+        <div class="timer" id="countdown">Offer ends in: <span id="time"></span></div>
+    </section>
+
+    <!-- Interactive Food Menu -->
+    <main>
+        <section class="food-gallery">
+            <h2>Our Delicious Deals</h2>
+            <div class="food-items">
+                <div class="food-item">
+                    <img src="burger.jpg" alt="Burger Deal">
+                    <p>Burger Special - $5.99 <span class="rating">⭐⭐⭐⭐</span></p>
+                </div>
+                <div class="food-item">
+                    <img src="pizza.jpg" alt="Pizza Deal">
+                    <p>Cheese Pizza - $8.99 <span class="rating">⭐⭐⭐⭐⭐</span></p>
+                </div>
+                <div class="food-item">
+                    <img src="pasta.jpg" alt="Pasta Deal">
+                    <p>Italian Pasta - $7.49 <span class="rating">⭐⭐⭐⭐</span></p>
+                </div>
+                <div class="food-item">
+                    <img src="salad.jpg" alt="Salad Deal">
+                    <p>Fresh Salad - c:$4.99 <span class="rating">⭐⭐⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Section -->
+        <section class="order-section">
+            <h2>Place Your Order</h2>
+            <form id="order-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Delivery Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="otp">Enter OTP:</label>
+                <input type="text" id="otp" name="otp" required>
+
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="cash">Cash on Delivery</option>
+                    <option value="card">Credit/Debit Card</option>
+                    <option value="online">Online Payment</option>
+                </select>
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Zdishes. All rights reserved.</p>
+    </footer>
+
+    <!-- Popup Modal for Special Deal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h3>Special Deal Just for You!</h3>
+            <p>Get a free drink with any order above $15! Use code: FREEDRINK</p>
+        </div>
+    </div>
+
+    <audio id="alarm" src="alarm-sound.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
